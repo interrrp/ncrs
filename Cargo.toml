@@ -3,6 +3,7 @@ name = "ncrs"
 description = "Netcat, but in Rust"
 version = "0.1.0"
 authors = ["interrrp <int@addictedto.coffee"]
+readme = "README.md"
 edition = "2021"
 
 [dependencies]
