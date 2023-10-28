@@ -17,6 +17,10 @@ use clap::Parser;
 /// Netcat, but in Rust
 #[derive(Parser)]
 pub struct Args {
-    /// The address to connect to (host:port)
+    /// The address to connect/bind to (host:port)
     pub address: String,
+
+    /// Server mode - listen for connections
+    #[clap(short, long)]
+    pub server: bool,
 }
